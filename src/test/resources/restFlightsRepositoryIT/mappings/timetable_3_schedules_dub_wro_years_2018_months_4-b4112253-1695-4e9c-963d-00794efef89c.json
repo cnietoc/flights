@@ -1,0 +1,28 @@
+{
+  "id" : "b4112253-1695-4e9c-963d-00794efef89c",
+  "name" : "timetable_3_schedules_dub_wro_years_2018_months_4",
+  "request" : {
+    "url" : "/timetable/3/schedules/DUB/WRO/years/2018/months/4",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":4,\"days\":[{\"day\":1,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"17:25\",\"arrivalTime\":\"21:00\"}]},{\"day\":30,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"09:45\",\"arrivalTime\":\"13:20\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Fri, 02 Mar 2018 13:58:36 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "b4112253-1695-4e9c-963d-00794efef89c",
+  "persistent" : true,
+  "insertionIndex" : 2
+}

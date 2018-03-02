@@ -1,4 +1,4 @@
-package es.cnieto.flights;
+package es.cnieto.flights.infrastructure.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

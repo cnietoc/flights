@@ -1,0 +1,15 @@
+[
+  {
+    "stops": 0,
+    "legs": {
+      "legs": [
+        {
+          "departureAirport": "DUB",
+          "arrivalAirport": "WRO",
+          "departureDateTime": "2018-03-02T14:20:00",
+          "arrivalDateTime": "2018-03-02T17:55:00"
+        }
+      ]
+    }
+  }
+]

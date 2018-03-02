@@ -1,4 +1,4 @@
-package es.cnieto.flights;
+package es.cnieto.flights.infrastructure.spring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

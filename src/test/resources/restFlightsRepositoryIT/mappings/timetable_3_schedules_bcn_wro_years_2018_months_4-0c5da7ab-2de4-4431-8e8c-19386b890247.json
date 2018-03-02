@@ -1,0 +1,28 @@
+{
+  "id" : "0c5da7ab-2de4-4431-8e8c-19386b890247",
+  "name" : "timetable_3_schedules_bcn_wro_years_2018_months_4",
+  "request" : {
+    "url" : "/timetable/3/schedules/BCN/WRO/years/2018/months/4",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 404,
+    "body" : "{\"code\":\"Error\",\"message\":\"Resource not found\"}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Fri, 02 Mar 2018 13:58:10 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "0c5da7ab-2de4-4431-8e8c-19386b890247",
+  "persistent" : true,
+  "insertionIndex" : 1
+}
