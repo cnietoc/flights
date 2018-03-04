@@ -1,0 +1,28 @@
+{
+  "id" : "7f0039b1-fa78-494e-bfaa-9eab60b2e3e8",
+  "name" : "timetable_3_schedules_agp_wro_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/AGP/WRO/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":17,\"flights\":[{\"number\":\"2581\",\"departureTime\":\"11:35\",\"arrivalTime\":\"15:10\"}]},{\"day\":22,\"flights\":[{\"number\":\"2581\",\"departureTime\":\"11:35\",\"arrivalTime\":\"15:10\"}]},{\"day\":8,\"flights\":[{\"number\":\"2581\",\"departureTime\":\"11:35\",\"arrivalTime\":\"15:10\"}]},{\"day\":24,\"flights\":[{\"number\":\"2581\",\"departureTime\":\"11:35\",\"arrivalTime\":\"15:10\"}]},{\"day\":10,\"flights\":[{\"number\":\"2581\",\"departureTime\":\"11:35\",\"arrivalTime\":\"15:10\"}]},{\"day\":26,\"flights\":[{\"number\":\"2581\",\"departureTime\":\"06:20\",\"arrivalTime\":\"09:55\"}]},{\"day\":30,\"flights\":[{\"number\":\"2581\",\"departureTime\":\"06:20\",\"arrivalTime\":\"09:55\"}]},{\"day\":15,\"flights\":[{\"number\":\"2581\",\"departureTime\":\"11:35\",\"arrivalTime\":\"15:10\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:31 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "7f0039b1-fa78-494e-bfaa-9eab60b2e3e8",
+  "persistent" : true,
+  "insertionIndex" : 33
+}

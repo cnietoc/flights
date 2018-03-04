@@ -13,7 +13,7 @@ import java.net.URI;
 public class RestFlightsRepositorySpringConfiguration {
     private final URI serviceEndpoint;
 
-    public RestFlightsRepositorySpringConfiguration(@Value("${flights.endpoint}") URI serviceEndpoint) {
+    public RestFlightsRepositorySpringConfiguration(@Value("${service.endpoint}") URI serviceEndpoint) {
         this.serviceEndpoint = serviceEndpoint;
     }
 

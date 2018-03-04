@@ -1,0 +1,28 @@
+{
+  "id" : "7102396e-d995-403b-bf2c-0dd05b9ee525",
+  "name" : "timetable_3_schedules_dub_ncl_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/DUB/NCL/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":5,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":6,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":7,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":8,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":9,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"19:35\",\"arrivalTime\":\"20:50\"}]},{\"day\":10,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"}]},{\"day\":11,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"16:55\",\"arrivalTime\":\"18:10\"}]},{\"day\":12,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":13,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":14,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":15,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":16,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"19:35\",\"arrivalTime\":\"20:50\"}]},{\"day\":17,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"}]},{\"day\":18,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"16:55\",\"arrivalTime\":\"18:10\"}]},{\"day\":19,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":20,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":21,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":22,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":23,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"19:35\",\"arrivalTime\":\"20:50\"}]},{\"day\":24,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"}]},{\"day\":25,\"flights\":[{\"number\":\"172\",\"departureTime\":\"07:35\",\"arrivalTime\":\"08:45\"},{\"number\":\"174\",\"departureTime\":\"21:10\",\"arrivalTime\":\"22:20\"}]},{\"day\":26,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":27,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":28,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":29,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":30,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"},{\"number\":\"174\",\"departureTime\":\"20:55\",\"arrivalTime\":\"22:05\"}]},{\"day\":31,\"flights\":[{\"number\":\"172\",\"departureTime\":\"09:45\",\"arrivalTime\":\"10:55\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:30 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "7102396e-d995-403b-bf2c-0dd05b9ee525",
+  "persistent" : true,
+  "insertionIndex" : 36
+}

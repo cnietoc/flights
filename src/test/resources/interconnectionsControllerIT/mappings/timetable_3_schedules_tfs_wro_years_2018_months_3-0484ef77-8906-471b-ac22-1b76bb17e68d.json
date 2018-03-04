@@ -1,0 +1,28 @@
+{
+  "id" : "0484ef77-8906-471b-ac22-1b76bb17e68d",
+  "name" : "timetable_3_schedules_tfs_wro_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/TFS/WRO/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":21,\"flights\":[{\"number\":\"3060\",\"departureTime\":\"12:25\",\"arrivalTime\":\"18:45\"}]},{\"day\":7,\"flights\":[{\"number\":\"3060\",\"departureTime\":\"12:25\",\"arrivalTime\":\"18:45\"}]},{\"day\":26,\"flights\":[{\"number\":\"3060\",\"departureTime\":\"06:55\",\"arrivalTime\":\"13:15\"}]},{\"day\":14,\"flights\":[{\"number\":\"3060\",\"departureTime\":\"12:25\",\"arrivalTime\":\"18:45\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:30 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "0484ef77-8906-471b-ac22-1b76bb17e68d",
+  "persistent" : true,
+  "insertionIndex" : 23
+}

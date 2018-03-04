@@ -1,0 +1,28 @@
+{
+  "id" : "0ce44d54-51df-484c-aa35-d604a9efbb1c",
+  "name" : "timetable_3_schedules_ncl_wro_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/NCL/WRO/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":18,\"flights\":[{\"number\":\"8310\",\"departureTime\":\"08:30\",\"arrivalTime\":\"11:45\"}]},{\"day\":22,\"flights\":[{\"number\":\"8310\",\"departureTime\":\"08:30\",\"arrivalTime\":\"11:45\"}]},{\"day\":8,\"flights\":[{\"number\":\"8310\",\"departureTime\":\"08:30\",\"arrivalTime\":\"11:45\"}]},{\"day\":25,\"flights\":[{\"number\":\"8310\",\"departureTime\":\"15:50\",\"arrivalTime\":\"19:05\"}]},{\"day\":11,\"flights\":[{\"number\":\"8310\",\"departureTime\":\"08:30\",\"arrivalTime\":\"11:45\"}]},{\"day\":29,\"flights\":[{\"number\":\"8310\",\"departureTime\":\"08:15\",\"arrivalTime\":\"11:30\"}]},{\"day\":15,\"flights\":[{\"number\":\"8310\",\"departureTime\":\"08:30\",\"arrivalTime\":\"11:45\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:31 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "0ce44d54-51df-484c-aa35-d604a9efbb1c",
+  "persistent" : true,
+  "insertionIndex" : 37
+}

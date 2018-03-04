@@ -1,15 +1,64 @@
 [
   {
+    "stops": 1,
+    "legs": [
+      {
+        "departureAirport": "DUB",
+        "arrivalAirport": "LBA",
+        "departureDateTime": "2018-03-29T07:55:00",
+        "arrivalDateTime": "2018-03-29T09:00:00"
+      },
+      {
+        "departureAirport": "LBA",
+        "arrivalAirport": "WRO",
+        "departureDateTime": "2018-03-29T17:00:00",
+        "arrivalDateTime": "2018-03-29T20:15:00"
+      }
+    ]
+  },
+  {
+    "stops": 1,
+    "legs": [
+      {
+        "departureAirport": "DUB",
+        "arrivalAirport": "EDI",
+        "departureDateTime": "2018-03-29T12:35:00",
+        "arrivalDateTime": "2018-03-29T13:45:00"
+      },
+      {
+        "departureAirport": "EDI",
+        "arrivalAirport": "WRO",
+        "departureDateTime": "2018-03-29T18:00:00",
+        "arrivalDateTime": "2018-03-29T21:15:00"
+      }
+    ]
+  },
+  {
+    "stops": 1,
+    "legs": [
+      {
+        "departureAirport": "DUB",
+        "arrivalAirport": "LPL",
+        "departureDateTime": "2018-03-29T07:05:00",
+        "arrivalDateTime": "2018-03-29T08:00:00"
+      },
+      {
+        "departureAirport": "LPL",
+        "arrivalAirport": "WRO",
+        "departureDateTime": "2018-03-29T11:30:00",
+        "arrivalDateTime": "2018-03-29T14:45:00"
+      }
+    ]
+  },
+  {
     "stops": 0,
-    "legs": {
-      "legs": [
-        {
-          "departureAirport": "DUB",
-          "arrivalAirport": "WRO",
-          "departureDateTime": "2018-03-02T14:20:00",
-          "arrivalDateTime": "2018-03-02T17:55:00"
-        }
-      ]
-    }
+    "legs": [
+      {
+        "departureAirport": "DUB",
+        "arrivalAirport": "WRO",
+        "departureDateTime": "2018-03-29T19:30:00",
+        "arrivalDateTime": "2018-03-29T23:05:00"
+      }
+    ]
   }
 ]

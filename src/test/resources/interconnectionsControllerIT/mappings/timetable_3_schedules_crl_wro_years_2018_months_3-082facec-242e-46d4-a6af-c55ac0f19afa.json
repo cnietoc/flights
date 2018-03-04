@@ -1,0 +1,28 @@
+{
+  "id" : "082facec-242e-46d4-a6af-c55ac0f19afa",
+  "name" : "timetable_3_schedules_crl_wro_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/CRL/WRO/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":6,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"12:30\",\"arrivalTime\":\"14:15\"}]},{\"day\":8,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"12:30\",\"arrivalTime\":\"14:15\"}]},{\"day\":10,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"12:30\",\"arrivalTime\":\"14:15\"}]},{\"day\":13,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"12:30\",\"arrivalTime\":\"14:15\"}]},{\"day\":15,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"12:30\",\"arrivalTime\":\"14:15\"}]},{\"day\":17,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"12:30\",\"arrivalTime\":\"14:15\"}]},{\"day\":20,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"12:30\",\"arrivalTime\":\"14:15\"}]},{\"day\":22,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"12:30\",\"arrivalTime\":\"14:15\"}]},{\"day\":24,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"12:30\",\"arrivalTime\":\"14:15\"}]},{\"day\":27,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"07:15\",\"arrivalTime\":\"09:00\"}]},{\"day\":29,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"13:30\",\"arrivalTime\":\"15:15\"}]},{\"day\":31,\"flights\":[{\"number\":\"8372\",\"departureTime\":\"18:45\",\"arrivalTime\":\"20:30\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:31 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "082facec-242e-46d4-a6af-c55ac0f19afa",
+  "persistent" : true,
+  "insertionIndex" : 41
+}

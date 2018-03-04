@@ -1,0 +1,28 @@
+{
+  "id" : "5fc003a9-6638-4767-a44f-610638450db5",
+  "name" : "timetable_3_schedules_dub_alc_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/DUB/ALC/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":5,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":7,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":8,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":9,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":10,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":11,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":12,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":14,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":15,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":16,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":17,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":18,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":19,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":21,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":22,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":23,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":24,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:00\"}]},{\"day\":25,\"flights\":[{\"number\":\"7762\",\"departureTime\":\"06:30\",\"arrivalTime\":\"10:20\"},{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:05\"}]},{\"day\":26,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:05\"}]},{\"day\":27,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:05\"},{\"number\":\"7762\",\"departureTime\":\"17:25\",\"arrivalTime\":\"21:20\"}]},{\"day\":28,\"flights\":[{\"number\":\"7762\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:15\"},{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:05\"}]},{\"day\":29,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:05\"}]},{\"day\":30,\"flights\":[{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:05\"}]},{\"day\":31,\"flights\":[{\"number\":\"7762\",\"departureTime\":\"06:55\",\"arrivalTime\":\"10:50\"},{\"number\":\"7062\",\"departureTime\":\"10:10\",\"arrivalTime\":\"14:05\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:29 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "5fc003a9-6638-4767-a44f-610638450db5",
+  "persistent" : true,
+  "insertionIndex" : 10
+}

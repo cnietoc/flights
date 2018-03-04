@@ -1,0 +1,28 @@
+{
+  "id" : "9553e06d-014c-49a6-bec1-5f56c7d1bdde",
+  "name" : "timetable_3_schedules_dub_wro_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/DUB/WRO/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":5,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:10\",\"arrivalTime\":\"22:45\"}]},{\"day\":7,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:10\",\"arrivalTime\":\"22:45\"}]},{\"day\":8,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:10\",\"arrivalTime\":\"22:45\"}]},{\"day\":9,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"15:20\",\"arrivalTime\":\"18:55\"}]},{\"day\":11,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:10\",\"arrivalTime\":\"22:45\"}]},{\"day\":12,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:10\",\"arrivalTime\":\"22:45\"}]},{\"day\":14,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:10\",\"arrivalTime\":\"22:45\"}]},{\"day\":15,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:10\",\"arrivalTime\":\"22:45\"}]},{\"day\":16,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"14:20\",\"arrivalTime\":\"17:55\"}]},{\"day\":18,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:10\",\"arrivalTime\":\"22:45\"}]},{\"day\":19,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:10\",\"arrivalTime\":\"22:45\"}]},{\"day\":21,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:10\",\"arrivalTime\":\"22:45\"}]},{\"day\":22,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:10\",\"arrivalTime\":\"22:45\"}]},{\"day\":23,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"14:20\",\"arrivalTime\":\"17:55\"}]},{\"day\":25,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"17:25\",\"arrivalTime\":\"21:00\"}]},{\"day\":26,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"09:45\",\"arrivalTime\":\"13:20\"}]},{\"day\":28,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"17:50\",\"arrivalTime\":\"21:25\"}]},{\"day\":29,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"19:30\",\"arrivalTime\":\"23:05\"}]},{\"day\":30,\"flights\":[{\"number\":\"1926\",\"departureTime\":\"18:00\",\"arrivalTime\":\"21:35\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:31 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "9553e06d-014c-49a6-bec1-5f56c7d1bdde",
+  "persistent" : true,
+  "insertionIndex" : 48
+}

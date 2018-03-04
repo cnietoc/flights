@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class DailyFlightsRest {
+class DailyFlightsRest {
     int day;
     List<FlightRest> flights;
 }

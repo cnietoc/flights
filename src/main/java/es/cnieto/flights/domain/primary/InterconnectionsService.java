@@ -1,39 +1,32 @@
 package es.cnieto.flights.domain.primary;
 
-import es.cnieto.flights.domain.DirectInterconnection;
-import es.cnieto.flights.domain.Flight;
-import es.cnieto.flights.domain.Interconnections;
-import es.cnieto.flights.domain.secondary.FlightsRepository;
+import es.cnieto.flights.domain.*;
 import lombok.RequiredArgsConstructor;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.stream.Collectors;
+
+import static java.util.stream.Collectors.toList;
 
 // TODO test
 @RequiredArgsConstructor
 public class InterconnectionsService {
-    private final FlightsRepository flightsRepository;
+    private final InterconnectedRouteService interconnectedRouteService;
+    private final InterconnectedFlightService interconnectedFlightService;
 
     public Interconnections searchFor(String departureAirport,
                                       LocalDateTime departureDateTime,
                                       String arrivalAirport,
                                       LocalDateTime arrivalDateTime) {
-        List<Flight> directFlights = getDirectFlights(departureAirport, departureDateTime, arrivalAirport);
+        List<InterconnectedRoute> interconnectedRoutes = interconnectedRouteService.from(departureAirport, arrivalAirport);
+        List<InterconnectedFlight> interconnectedFlights = interconnectedRoutes.stream()
+                .map(interconnectedRoute -> interconnectedFlightService.from(interconnectedRoute, departureDateTime.getYear(), departureDateTime.getMonth()))
+                .flatMap(List::stream)
+                .collect(toList());
 
-        return new Interconnections(directFlights.stream()
-                .filter(flight -> flight.departureIsAfter(departureDateTime))
-                .filter(flight -> flight.arrivalIsBefore(arrivalDateTime))
-                .map(DirectInterconnection::new)
-                .collect(Collectors.toList()));
-    }
-
-    private List<Flight> getDirectFlights(String departureAirport,
-                                          LocalDateTime departureDateTime,
-                                          String arrivalAirport) {
-        return flightsRepository.searchBy(departureAirport,
-                arrivalAirport,
-                departureDateTime.getYear(),
-                departureDateTime.getMonth());
+        return new Interconnections(interconnectedFlights.stream()
+                .filter(interconnectedFlight -> interconnectedFlight.departureIsAfter(departureDateTime))
+                .filter(interconnectedFlight -> interconnectedFlight.arrivalIsBefore(arrivalDateTime))
+                .collect(toList()));
     }
 }

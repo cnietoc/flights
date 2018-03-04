@@ -1,0 +1,28 @@
+{
+  "id" : "4a824c4c-a803-4f55-b8ee-ea965e0d135f",
+  "name" : "timetable_3_schedules_dub_agp_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/DUB/AGP/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":5,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":6,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":7,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":8,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":9,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":10,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":11,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":12,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":13,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":14,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":15,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":16,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":17,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":18,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":19,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":20,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":21,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":22,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":23,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":24,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:25\"}]},{\"day\":25,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"10:05\",\"arrivalTime\":\"14:05\"},{\"number\":\"7054\",\"departureTime\":\"17:55\",\"arrivalTime\":\"21:55\"}]},{\"day\":26,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"06:25\",\"arrivalTime\":\"10:25\"},{\"number\":\"7054\",\"departureTime\":\"17:55\",\"arrivalTime\":\"21:55\"}]},{\"day\":27,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"06:25\",\"arrivalTime\":\"10:25\"},{\"number\":\"7054\",\"departureTime\":\"17:15\",\"arrivalTime\":\"21:15\"}]},{\"day\":28,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"10:05\",\"arrivalTime\":\"14:05\"},{\"number\":\"7054\",\"departureTime\":\"17:55\",\"arrivalTime\":\"21:55\"}]},{\"day\":29,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:30\"},{\"number\":\"7054\",\"departureTime\":\"17:55\",\"arrivalTime\":\"21:55\"}]},{\"day\":30,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"06:25\",\"arrivalTime\":\"10:25\"},{\"number\":\"7054\",\"departureTime\":\"17:55\",\"arrivalTime\":\"21:55\"}]},{\"day\":31,\"flights\":[{\"number\":\"7044\",\"departureTime\":\"07:20\",\"arrivalTime\":\"11:20\"},{\"number\":\"7046\",\"departureTime\":\"10:05\",\"arrivalTime\":\"14:05\"},{\"number\":\"7054\",\"departureTime\":\"17:30\",\"arrivalTime\":\"21:30\"},{\"number\":\"9158\",\"departureTime\":\"18:35\",\"arrivalTime\":\"22:40\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:30 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "4a824c4c-a803-4f55-b8ee-ea965e0d135f",
+  "persistent" : true,
+  "insertionIndex" : 32
+}

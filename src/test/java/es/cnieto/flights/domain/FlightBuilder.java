@@ -3,8 +3,7 @@ package es.cnieto.flights.domain;
 import java.time.LocalDateTime;
 
 public final class FlightBuilder {
-    private String departureAirport;
-    private String arrivalAirport;
+    private Route route;
     private LocalDateTime departureDateTime;
     private LocalDateTime arrivalDateTime;
 
@@ -15,13 +14,8 @@ public final class FlightBuilder {
         return new FlightBuilder();
     }
 
-    public FlightBuilder withDepartureAirport(String departureAirport) {
-        this.departureAirport = departureAirport;
-        return this;
-    }
-
-    public FlightBuilder withArrivalAirport(String arrivalAirport) {
-        this.arrivalAirport = arrivalAirport;
+    public FlightBuilder withRoute(Route route) {
+        this.route = route;
         return this;
     }
 
@@ -36,6 +30,6 @@ public final class FlightBuilder {
     }
 
     public Flight build() {
-        return new Flight(departureAirport, arrivalAirport, departureDateTime, arrivalDateTime);
+        return new Flight(route, departureDateTime, arrivalDateTime);
     }
 }

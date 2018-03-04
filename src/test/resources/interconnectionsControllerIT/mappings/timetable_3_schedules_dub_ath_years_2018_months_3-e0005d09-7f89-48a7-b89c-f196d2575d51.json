@@ -1,0 +1,28 @@
+{
+  "id" : "e0005d09-7f89-48a7-b89c-f196d2575d51",
+  "name" : "timetable_3_schedules_dub_ath_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/DUB/ATH/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":25,\"flights\":[{\"number\":\"4518\",\"departureTime\":\"07:50\",\"arrivalTime\":\"14:00\"}]},{\"day\":28,\"flights\":[{\"number\":\"4518\",\"departureTime\":\"07:25\",\"arrivalTime\":\"13:35\"}]},{\"day\":30,\"flights\":[{\"number\":\"4518\",\"departureTime\":\"07:25\",\"arrivalTime\":\"13:35\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:29 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "e0005d09-7f89-48a7-b89c-f196d2575d51",
+  "persistent" : true,
+  "insertionIndex" : 4
+}

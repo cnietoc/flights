@@ -1,0 +1,28 @@
+{
+  "id" : "f9a491a3-e2a4-422a-bfef-47158fbd680d",
+  "name" : "timetable_3_schedules_dub_blq_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/DUB/BLQ/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":17,\"flights\":[{\"number\":\"9456\",\"departureTime\":\"09:15\",\"arrivalTime\":\"12:50\"}]},{\"day\":20,\"flights\":[{\"number\":\"9456\",\"departureTime\":\"09:35\",\"arrivalTime\":\"13:10\"}]},{\"day\":6,\"flights\":[{\"number\":\"9456\",\"departureTime\":\"09:35\",\"arrivalTime\":\"13:10\"}]},{\"day\":24,\"flights\":[{\"number\":\"9456\",\"departureTime\":\"09:15\",\"arrivalTime\":\"12:50\"}]},{\"day\":10,\"flights\":[{\"number\":\"9456\",\"departureTime\":\"09:15\",\"arrivalTime\":\"12:50\"}]},{\"day\":27,\"flights\":[{\"number\":\"9456\",\"departureTime\":\"19:25\",\"arrivalTime\":\"23:10\"}]},{\"day\":13,\"flights\":[{\"number\":\"9456\",\"departureTime\":\"09:35\",\"arrivalTime\":\"13:10\"}]},{\"day\":29,\"flights\":[{\"number\":\"9456\",\"departureTime\":\"15:45\",\"arrivalTime\":\"19:30\"}]},{\"day\":31,\"flights\":[{\"number\":\"9456\",\"departureTime\":\"19:25\",\"arrivalTime\":\"23:10\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:31 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "f9a491a3-e2a4-422a-bfef-47158fbd680d",
+  "persistent" : true,
+  "insertionIndex" : 49
+}

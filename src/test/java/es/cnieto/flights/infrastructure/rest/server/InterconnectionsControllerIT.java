@@ -15,8 +15,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
 import static java.lang.ClassLoader.getSystemResource;
@@ -27,10 +25,9 @@ import static org.skyscreamer.jsonassert.JSONAssert.assertEquals;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = FlightsApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @TestPropertySource(properties = {
-        "flights.endpoint=http://localhost:9889/",
+        "service.endpoint=http://localhost:9889/",
 })
 public class InterconnectionsControllerIT {
-
     @ClassRule
     public static WireMockClassRule wireMockRule = new WireMockClassRule(options()
             .usingFilesUnderDirectory("src/test/resources/interconnectionsControllerIT")
@@ -44,11 +41,9 @@ public class InterconnectionsControllerIT {
 
     @Test
     public void returnInterconnectionsAsExpected() throws IOException, JSONException, URISyntaxException {
-        //  wireMockRule.startRecording("https://api.ryanair.com/");
-        String value = testRestTemplate.getForObject("/interconnections?departure=DUB&arrival=WRO&departureDateTime=2018-03-01T07:00&arrivalDateTime=2018-03-03T21:00", String.class);
-        //  wireMockRule.stopRecording();
+        String appResponse = testRestTemplate.getForObject("/interconnections?departure=DUB&arrival=WRO&departureDateTime=2018-03-29T07:00&arrivalDateTime=2018-03-29T23:30", String.class);
 
-        assertEquals(expectedResponse(), value, true);
+        assertEquals(expectedResponse(), appResponse, true);
     }
 
     private String expectedResponse() throws IOException, URISyntaxException {

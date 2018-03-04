@@ -3,7 +3,7 @@ package es.cnieto.flights.infrastructure.rest.client.flights;
 import lombok.Data;
 
 @Data
-public class FlightRest {
+class FlightRest {
     private static final String TIME_SEPARATOR = ":";
     private String number;
     private String departureTime;

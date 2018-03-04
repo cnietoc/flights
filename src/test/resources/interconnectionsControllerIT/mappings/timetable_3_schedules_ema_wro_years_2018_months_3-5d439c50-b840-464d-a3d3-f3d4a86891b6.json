@@ -1,0 +1,28 @@
+{
+  "id" : "5d439c50-b840-464d-a3d3-f3d4a86891b6",
+  "name" : "timetable_3_schedules_ema_wro_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/EMA/WRO/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":5,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"06:05\",\"arrivalTime\":\"09:20\"}]},{\"day\":7,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"11:35\",\"arrivalTime\":\"14:50\"}]},{\"day\":9,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"17:15\",\"arrivalTime\":\"20:30\"}]},{\"day\":11,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"15:00\",\"arrivalTime\":\"18:15\"}]},{\"day\":12,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"06:05\",\"arrivalTime\":\"09:20\"}]},{\"day\":14,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"11:35\",\"arrivalTime\":\"14:50\"}]},{\"day\":16,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"17:15\",\"arrivalTime\":\"20:30\"}]},{\"day\":18,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"15:00\",\"arrivalTime\":\"18:15\"}]},{\"day\":19,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"06:05\",\"arrivalTime\":\"09:20\"}]},{\"day\":21,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"11:35\",\"arrivalTime\":\"14:50\"}]},{\"day\":23,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"17:15\",\"arrivalTime\":\"20:30\"}]},{\"day\":26,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"06:45\",\"arrivalTime\":\"10:05\"}]},{\"day\":27,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"06:50\",\"arrivalTime\":\"10:10\"}]},{\"day\":29,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"07:00\",\"arrivalTime\":\"10:20\"}]},{\"day\":30,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"06:45\",\"arrivalTime\":\"10:05\"}]},{\"day\":31,\"flights\":[{\"number\":\"1646\",\"departureTime\":\"06:40\",\"arrivalTime\":\"10:00\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:29 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "5d439c50-b840-464d-a3d3-f3d4a86891b6",
+  "persistent" : true,
+  "insertionIndex" : 3
+}

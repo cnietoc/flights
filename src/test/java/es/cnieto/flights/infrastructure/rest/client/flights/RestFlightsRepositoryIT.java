@@ -18,6 +18,7 @@ import java.util.List;
 
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
 import static es.cnieto.flights.domain.FlightBuilder.aFlight;
+import static es.cnieto.flights.domain.RouteBuilder.aRoute;
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
 import static org.hamcrest.Matchers.equalTo;
@@ -27,7 +28,7 @@ import static org.junit.Assert.assertThat;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = FlightsApplication.class, webEnvironment = SpringBootTest.WebEnvironment.NONE)
 @TestPropertySource(properties = {
-        "flights.endpoint=http://localhost:9899/",
+        "service.endpoint=http://localhost:9899/",
 })
 public class RestFlightsRepositoryIT {
     private static final String DUB_AIRPORT = "DUB";
@@ -49,18 +50,26 @@ public class RestFlightsRepositoryIT {
 
     @Test
     public void returnFlightsAsExpected() {
-        List<Flight> flights = restFlightsRepository.searchBy(DUB_AIRPORT, WRO_AIRPORT, YEAR, MONTH);
+        List<Flight> flights = restFlightsRepository
+                .searchBy(
+                        aRoute().withDepartureAirport(DUB_AIRPORT)
+                                .withArrivalAirport(WRO_AIRPORT)
+                                .build(),
+                        YEAR,
+                        MONTH);
 
         assertThat(flights, equalTo(
                 asList(aFlight()
-                                .withDepartureAirport(DUB_AIRPORT)
-                                .withArrivalAirport(WRO_AIRPORT)
+                                .withRoute(aRoute().withDepartureAirport(DUB_AIRPORT)
+                                        .withArrivalAirport(WRO_AIRPORT)
+                                        .build())
                                 .withDepartureDateTime(LocalDateTime.of(YEAR, MONTH.getValue(), 1, 17, 25))
                                 .withArrivalDateTime(LocalDateTime.of(YEAR, MONTH.getValue(), 1, 21, 0))
                                 .build(),
                         aFlight()
-                                .withDepartureAirport(DUB_AIRPORT)
-                                .withArrivalAirport(WRO_AIRPORT)
+                                .withRoute(aRoute().withDepartureAirport(DUB_AIRPORT)
+                                        .withArrivalAirport(WRO_AIRPORT)
+                                        .build())
                                 .withDepartureDateTime(LocalDateTime.of(YEAR, MONTH.getValue(), 30, 9, 45))
                                 .withArrivalDateTime(LocalDateTime.of(YEAR, MONTH.getValue(), 30, 13, 20))
                                 .build())));
@@ -68,7 +77,13 @@ public class RestFlightsRepositoryIT {
 
     @Test
     public void returnEmptyListWhenNoFlights() {
-        List<Flight> flights = restFlightsRepository.searchBy(BCN_AIRPORT, WRO_AIRPORT, YEAR, MONTH);
+        List<Flight> flights = restFlightsRepository
+                .searchBy(
+                        aRoute().withDepartureAirport(BCN_AIRPORT)
+                                .withArrivalAirport(WRO_AIRPORT)
+                                .build(),
+                        YEAR,
+                        MONTH);
 
         assertThat(flights, is(emptyList()));
     }

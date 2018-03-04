@@ -1,0 +1,28 @@
+{
+  "id" : "07133af8-68b1-49d5-a647-a79427657d14",
+  "name" : "timetable_3_schedules_dub_crl_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/DUB/CRL/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":5,\"flights\":[{\"number\":\"46\",\"departureTime\":\"19:25\",\"arrivalTime\":\"22:05\"}]},{\"day\":7,\"flights\":[{\"number\":\"46\",\"departureTime\":\"13:20\",\"arrivalTime\":\"16:00\"}]},{\"day\":9,\"flights\":[{\"number\":\"46\",\"departureTime\":\"19:25\",\"arrivalTime\":\"22:05\"}]},{\"day\":11,\"flights\":[{\"number\":\"46\",\"departureTime\":\"19:20\",\"arrivalTime\":\"22:00\"}]},{\"day\":12,\"flights\":[{\"number\":\"46\",\"departureTime\":\"19:25\",\"arrivalTime\":\"22:05\"}]},{\"day\":14,\"flights\":[{\"number\":\"46\",\"departureTime\":\"13:20\",\"arrivalTime\":\"16:00\"}]},{\"day\":16,\"flights\":[{\"number\":\"46\",\"departureTime\":\"16:15\",\"arrivalTime\":\"18:55\"}]},{\"day\":18,\"flights\":[{\"number\":\"46\",\"departureTime\":\"19:20\",\"arrivalTime\":\"22:00\"}]},{\"day\":19,\"flights\":[{\"number\":\"46\",\"departureTime\":\"19:25\",\"arrivalTime\":\"22:05\"}]},{\"day\":21,\"flights\":[{\"number\":\"46\",\"departureTime\":\"13:20\",\"arrivalTime\":\"16:00\"}]},{\"day\":23,\"flights\":[{\"number\":\"46\",\"departureTime\":\"19:25\",\"arrivalTime\":\"22:05\"}]},{\"day\":25,\"flights\":[{\"number\":\"46\",\"departureTime\":\"20:00\",\"arrivalTime\":\"22:40\"}]},{\"day\":26,\"flights\":[{\"number\":\"46\",\"departureTime\":\"18:45\",\"arrivalTime\":\"21:25\"}]},{\"day\":28,\"flights\":[{\"number\":\"46\",\"departureTime\":\"13:20\",\"arrivalTime\":\"16:00\"}]},{\"day\":30,\"flights\":[{\"number\":\"46\",\"departureTime\":\"19:25\",\"arrivalTime\":\"22:05\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:31 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "07133af8-68b1-49d5-a647-a79427657d14",
+  "persistent" : true,
+  "insertionIndex" : 40
+}

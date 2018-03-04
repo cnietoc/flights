@@ -1,6 +1,7 @@
 package es.cnieto.flights.infrastructure.rest.client.flights;
 
 import es.cnieto.flights.domain.Flight;
+import es.cnieto.flights.domain.Route;
 import es.cnieto.flights.domain.secondary.FlightsRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.client.HttpClientErrorException;
@@ -24,12 +25,12 @@ public class RestFlightsRepository implements FlightsRepository {
     private final FlightsConverter flightsConverter;
 
     @Override
-    public List<Flight> searchBy(String departureAirport, String arrivalAirport, int year, Month month) {
-        URI uri = getUriWithParams(departureAirport, arrivalAirport, year, month);
+    public List<Flight> searchBy(Route route, int year, Month month) {
+        URI uri = getUriWithParams(route.getDepartureAirport(), route.getArrivalAirport(), year, month);
 
         try {
             MonthlyFlightsRest monthlyFlightsRest = restTemplate.getForObject(uri, MonthlyFlightsRest.class);
-            return flightsConverter.from(departureAirport, arrivalAirport, year, monthlyFlightsRest);
+            return flightsConverter.from(route, year, monthlyFlightsRest);
         } catch (HttpClientErrorException httpClientErrorException) {
             if (NOT_FOUND.equals(httpClientErrorException.getStatusCode())) {
                 return Collections.emptyList();

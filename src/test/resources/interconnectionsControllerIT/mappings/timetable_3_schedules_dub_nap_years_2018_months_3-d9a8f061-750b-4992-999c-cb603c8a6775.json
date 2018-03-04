@@ -1,0 +1,28 @@
+{
+  "id" : "d9a8f061-750b-4992-999c-cb603c8a6775",
+  "name" : "timetable_3_schedules_dub_nap_years_2018_months_3",
+  "request" : {
+    "url" : "/timetable/3/schedules/DUB/NAP/years/2018/months/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"month\":3,\"days\":[{\"day\":18,\"flights\":[{\"number\":\"6840\",\"departureTime\":\"07:40\",\"arrivalTime\":\"11:55\"}]},{\"day\":21,\"flights\":[{\"number\":\"6840\",\"departureTime\":\"13:25\",\"arrivalTime\":\"17:40\"}]},{\"day\":7,\"flights\":[{\"number\":\"6840\",\"departureTime\":\"13:25\",\"arrivalTime\":\"17:40\"}]},{\"day\":25,\"flights\":[{\"number\":\"6840\",\"departureTime\":\"16:10\",\"arrivalTime\":\"20:25\"}]},{\"day\":26,\"flights\":[{\"number\":\"6840\",\"departureTime\":\"16:00\",\"arrivalTime\":\"20:15\"}]},{\"day\":11,\"flights\":[{\"number\":\"6840\",\"departureTime\":\"07:40\",\"arrivalTime\":\"11:55\"}]},{\"day\":28,\"flights\":[{\"number\":\"6840\",\"departureTime\":\"16:15\",\"arrivalTime\":\"20:30\"}]},{\"day\":14,\"flights\":[{\"number\":\"6840\",\"departureTime\":\"13:25\",\"arrivalTime\":\"17:40\"}]},{\"day\":30,\"flights\":[{\"number\":\"6840\",\"departureTime\":\"16:00\",\"arrivalTime\":\"20:15\"}]},{\"day\":31,\"flights\":[{\"number\":\"6840\",\"departureTime\":\"12:45\",\"arrivalTime\":\"17:00\"}]}]}",
+    "headers" : {
+      "Server" : "Apache-Coyote/1.1",
+      "Access-Control-Allow-Origin" : "",
+      "Vary" : "Origin",
+      "Access-Control-Expose-Headers" : "Content-Type, Accept, X-Requested-With, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Date" : "Mon, 05 Mar 2018 15:25:29 GMT",
+      "Access-Control-Allow-Headers" : "Content-Type, Accept, X-Requested-With, X-File-Name, Market-Code, Market-BasePath, X-AUTH-TOKEN, X-DEVICE-FINGERPRINT, X-Client-Channel",
+      "Access-Control-Allow-Methods" : "GET,PUT,POST,DELETE,PATCH",
+      "Access-Control-Allow-Credentials" : "true",
+      "Access-Control-Max-Age" : "86400",
+      "X-FRAME-OPTIONS" : "SAMEORIGIN"
+    }
+  },
+  "uuid" : "d9a8f061-750b-4992-999c-cb603c8a6775",
+  "persistent" : true,
+  "insertionIndex" : 14
+}
