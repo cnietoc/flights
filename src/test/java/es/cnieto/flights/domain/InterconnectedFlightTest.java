@@ -58,7 +58,7 @@ public class InterconnectedFlightTest {
 
     private InterconnectedFlight createInterconnectedFlight() {
         return anInterconnectedFlight()
-                .withFlights(asList(firstFlight, secondFlight))
+                .with(asList(firstFlight, secondFlight))
                 .build();
     }
 }

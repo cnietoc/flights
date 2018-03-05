@@ -55,23 +55,23 @@ public class RestRoutesRepositoryIT {
         assertThat(routes,
                 equalTo(aRoutes()
                         .with(asList(
-                                aRoute().withDepartureAirport(DUB_AIRPORT)
-                                        .withArrivalAirport(SXF_AIRPORT)
+                                aRoute().from(DUB_AIRPORT)
+                                        .to(SXF_AIRPORT)
                                         .build(),
-                                aRoute().withDepartureAirport(BVA_AIRPORT)
-                                        .withArrivalAirport(TFS_AIRPORT)
+                                aRoute().from(BVA_AIRPORT)
+                                        .to(TFS_AIRPORT)
                                         .build(),
-                                aRoute().withDepartureAirport(CIA_AIRPORT)
-                                        .withArrivalAirport(NRN_AIRPORT)
+                                aRoute().from(CIA_AIRPORT)
+                                        .to(NRN_AIRPORT)
                                         .build(),
-                                aRoute().withDepartureAirport(BDS_AIRPORT)
-                                        .withArrivalAirport(CAG_AIRPORT)
+                                aRoute().from(BDS_AIRPORT)
+                                        .to(CAG_AIRPORT)
                                         .build(),
-                                aRoute().withDepartureAirport(SVQ_AIRPORT)
-                                        .withArrivalAirport(NAP_AIRPORT)
+                                aRoute().from(SVQ_AIRPORT)
+                                        .to(NAP_AIRPORT)
                                         .build(),
-                                aRoute().withDepartureAirport(GRO_AIRPORT)
-                                        .withArrivalAirport(BVA_AIRPORT)
+                                aRoute().from(GRO_AIRPORT)
+                                        .to(BVA_AIRPORT)
                                         .build()))
                         .build()));
     }

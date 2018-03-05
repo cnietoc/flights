@@ -14,18 +14,17 @@ import static java.util.stream.Collectors.toList;
 public class InterconnectedRouteService {
     private final RoutesRepository routesRepository;
 
-    // TODO test
     public List<InterconnectedRoute> from(String departureAirport, String arrivalAirport) {
         Routes routes = routesRepository.findAll();
 
         return routes.from(departureAirport)
                 .stream()
-                .map(route -> getLinkedRoutesFor(route, arrivalAirport, routes))
+                .map(route -> getInterconnectedRoutes(route, arrivalAirport, routes))
                 .flatMap(List::stream)
                 .collect(toList());
     }
 
-    private List<InterconnectedRoute> getLinkedRoutesFor(Route firstRoute, String arrivalAirport, Routes allRoutes) {
+    private List<InterconnectedRoute> getInterconnectedRoutes(Route firstRoute, String arrivalAirport, Routes allRoutes) {
         List<InterconnectedRoute> interconnectedRoutes = new ArrayList<>();
         if (firstRoute.getArrivalAirport().equals(arrivalAirport)) {
             interconnectedRoutes.add(new InterconnectedRoute(singletonList(firstRoute)));

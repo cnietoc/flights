@@ -13,7 +13,6 @@ import static java.util.Collections.emptyList;
 public class InterconnectedFlightService {
     private final FlightsRepository flightsRepository;
 
-    // TODO test
     public List<InterconnectedFlight> from(InterconnectedRoute interconnectedRoute, int year, Month month) {
         List<InterconnectedFlight> interconnectedFlights = emptyList();
 

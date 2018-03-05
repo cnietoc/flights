@@ -11,12 +11,12 @@ public final class RouteBuilder {
         return new RouteBuilder();
     }
 
-    public RouteBuilder withDepartureAirport(String departureAirport) {
+    public RouteBuilder from(String departureAirport) {
         this.departureAirport = departureAirport;
         return this;
     }
 
-    public RouteBuilder withArrivalAirport(String arrivalAirport) {
+    public RouteBuilder to(String arrivalAirport) {
         this.arrivalAirport = arrivalAirport;
         return this;
     }

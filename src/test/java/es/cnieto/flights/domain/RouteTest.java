@@ -12,28 +12,28 @@ public class RouteTest {
 
     @Test
     public void arriveToWhenItsTrue() {
-        Route route = aRoute().withArrivalAirport(BCN_AIRPORT).build();
+        Route route = aRoute().to(BCN_AIRPORT).build();
 
         assertTrue(route.arriveTo(BCN_AIRPORT));
     }
 
     @Test
     public void arriveToWhenItsFalse() {
-        Route route = aRoute().withArrivalAirport(MAD_AIRPORT).build();
+        Route route = aRoute().to(MAD_AIRPORT).build();
 
         assertFalse(route.arriveTo(BCN_AIRPORT));
     }
 
     @Test
     public void departureFromWhenItsTrue() {
-        Route route = aRoute().withDepartureAirport(BCN_AIRPORT).build();
+        Route route = aRoute().from(BCN_AIRPORT).build();
 
         assertTrue(route.departureFrom(BCN_AIRPORT));
     }
 
     @Test
     public void departureFromWhenItsFalse() {
-        Route route = aRoute().withDepartureAirport(MAD_AIRPORT).build();
+        Route route = aRoute().from(MAD_AIRPORT).build();
 
         assertFalse(route.departureFrom(BCN_AIRPORT));
     }

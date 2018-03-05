@@ -13,8 +13,8 @@ import static java.util.Collections.unmodifiableList;
 public class InterconnectedFlight {
     private final List<Flight> flights;
 
-    public InterconnectedFlight(Flight flight) {
-        this.flights = singletonList(flight);
+    InterconnectedFlight(Flight flight) {
+        this(singletonList(flight));
     }
 
     InterconnectedFlight(List<Flight> flights) {

@@ -12,7 +12,7 @@ public final class InterconnectedFlightBuilder {
         return new InterconnectedFlightBuilder();
     }
 
-    public InterconnectedFlightBuilder withFlights(List<Flight> flights) {
+    public InterconnectedFlightBuilder with(List<Flight> flights) {
         this.flights = flights;
         return this;
     }

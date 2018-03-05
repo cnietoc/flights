@@ -8,7 +8,6 @@ import java.util.List;
 
 import static java.util.stream.Collectors.toList;
 
-// TODO test
 @RequiredArgsConstructor
 public class InterconnectionsService {
     private final InterconnectedRouteService interconnectedRouteService;

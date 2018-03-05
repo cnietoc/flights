@@ -52,23 +52,23 @@ public class RestFlightsRepositoryIT {
     public void returnFlightsAsExpected() {
         List<Flight> flights = restFlightsRepository
                 .searchBy(
-                        aRoute().withDepartureAirport(DUB_AIRPORT)
-                                .withArrivalAirport(WRO_AIRPORT)
+                        aRoute().from(DUB_AIRPORT)
+                                .to(WRO_AIRPORT)
                                 .build(),
                         YEAR,
                         MONTH);
 
         assertThat(flights, equalTo(
                 asList(aFlight()
-                                .withRoute(aRoute().withDepartureAirport(DUB_AIRPORT)
-                                        .withArrivalAirport(WRO_AIRPORT)
+                                .withRoute(aRoute().from(DUB_AIRPORT)
+                                        .to(WRO_AIRPORT)
                                         .build())
                                 .withDepartureDateTime(LocalDateTime.of(YEAR, MONTH.getValue(), 1, 17, 25))
                                 .withArrivalDateTime(LocalDateTime.of(YEAR, MONTH.getValue(), 1, 21, 0))
                                 .build(),
                         aFlight()
-                                .withRoute(aRoute().withDepartureAirport(DUB_AIRPORT)
-                                        .withArrivalAirport(WRO_AIRPORT)
+                                .withRoute(aRoute().from(DUB_AIRPORT)
+                                        .to(WRO_AIRPORT)
                                         .build())
                                 .withDepartureDateTime(LocalDateTime.of(YEAR, MONTH.getValue(), 30, 9, 45))
                                 .withArrivalDateTime(LocalDateTime.of(YEAR, MONTH.getValue(), 30, 13, 20))
@@ -79,8 +79,8 @@ public class RestFlightsRepositoryIT {
     public void returnEmptyListWhenNoFlights() {
         List<Flight> flights = restFlightsRepository
                 .searchBy(
-                        aRoute().withDepartureAirport(BCN_AIRPORT)
-                                .withArrivalAirport(WRO_AIRPORT)
+                        aRoute().from(BCN_AIRPORT)
+                                .to(WRO_AIRPORT)
                                 .build(),
                         YEAR,
                         MONTH);

@@ -19,18 +19,18 @@ public class RoutesTest {
     @Test
     public void fromAirportAsExpected() {
         Routes routes = aRoutes().with(
-                asList(aRoute().withDepartureAirport(BCN_AIRPORT)
-                                .withArrivalAirport(MAD_AIRPORT)
+                asList(aRoute().from(BCN_AIRPORT)
+                                .to(MAD_AIRPORT)
                                 .build(),
-                        aRoute().withDepartureAirport(DUB_AIRPORT).withArrivalAirport(MAD_AIRPORT).build()))
+                        aRoute().from(DUB_AIRPORT).to(MAD_AIRPORT).build()))
                 .build();
 
         List<Route> routesFromBCNAirport = routes.from(BCN_AIRPORT);
 
         assertThat(routesFromBCNAirport,
                 equalTo(singletonList(
-                        aRoute().withDepartureAirport(BCN_AIRPORT)
-                                .withArrivalAirport(MAD_AIRPORT)
+                        aRoute().from(BCN_AIRPORT)
+                                .to(MAD_AIRPORT)
                                 .build())));
     }
 }

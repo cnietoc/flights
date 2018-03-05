@@ -9,7 +9,6 @@ import java.util.List;
 import static java.util.stream.Collectors.toList;
 
 @RequiredArgsConstructor
-// TODO test
 public class InterconnectionsResponseConverter {
     private final LegResponseConverter legResponseConverter;
 
